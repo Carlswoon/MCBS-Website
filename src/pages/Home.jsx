@@ -5,7 +5,7 @@ import MoreInfoSection from '../components/MoreInfoSection';
 import TeamSection from '../components/TeamSection';
 import YouTubeEmbed from '../components/VideoSection';
 import SponsorsSection from '../components/SponsorSection';
-import FooterSection from '../components/LastSection.jsx';
+import FooterSection from '../components/Footer.jsx';
 
 export default function Home() {
   return (

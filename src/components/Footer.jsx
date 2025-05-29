@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa'
 
 export default function FooterSection() {
   return (
-    <footer className="bg-mcbs-navy py-8">
+    <section className="bg-mcbs-navy py-8">
       <div className="flex justify-center items-center gap-6">
         <a
           href="mailto:newski@unsw.edu.au"
@@ -37,6 +37,6 @@ export default function FooterSection() {
           <FaYoutube size={28} />
         </a>
       </div>
-    </footer>
+    </section>
   );
 }
