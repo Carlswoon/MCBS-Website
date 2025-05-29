@@ -6,7 +6,9 @@ export default function Navbar() {
     <header className="bg-mcbs-green fixed top-0 w-full z-50 text-mcbs-navy shadow">
       <nav className="max-w-7xl mx-auto flex items-center justify-between p-4">        
         {/* LOGO on the left */}
-        <img src={logo} alt="MCBS Logo" className="h-12 w-auto" />
+        <Link to="/">
+          <img src={logo} alt="MCBS Logo" className="h-12 w-auto cursor-pointer" />
+        </Link>
         <div className="flex gap-6 font-semibold">
           <Link to="/join" className="hover:text-mcbs-white transition">JOIN MCBS</Link>
           <Link to="/events" className="hover:text-mcbs-white transition">EVENTS</Link>
