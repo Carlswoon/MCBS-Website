@@ -47,12 +47,12 @@ export default function TeamSection() {
   return (
     <section className="bg-slate-100 py-20 px-6 relative">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-12">MEET THE TEAM</h2>
+        <h2 className="text-3xl md:text-4xl font-extrabold text-mcbs-navy mb-12">MEET THE TEAM</h2>
 
         {/* Carousel */}
         <div className="flex items-center justify-center relative">
           {/* Left Arrow */}
-          <button onClick={prevPage} className="absolute left-0 p-2 md:p-4">
+          <button onClick={prevPage} className="absolute left-0 p-2 md:p-4 hover:bg-mcbs-green">
             <ChevronLeft size={32} />
           </button>
 
@@ -61,14 +61,14 @@ export default function TeamSection() {
             {visibleMembers.map((member, i) => (
               <div key={i} className="flex flex-col items-center">
                 <img src={member.image} alt={member.name} className="w-40 h-40 object-cover rounded-xl shadow" />
-                <h3 className="mt-4 text-lg font-bold text-blue-900">{member.name}</h3>
+                <h3 className="mt-4 text-lg font-bold text-mcbs-navy">{member.name}</h3>
                 <p className="text-sm text-gray-700">{member.role}</p>
               </div>
             ))}
           </div>
 
           {/* Right Arrow */}
-          <button onClick={nextPage} className="absolute right-0 p-2 md:p-4">
+          <button onClick={nextPage} className="absolute right-0 p-2 md:p-4 hover:bg-mcbs-green">
             <ChevronRight size={32} />
           </button>
         </div>
@@ -78,14 +78,14 @@ export default function TeamSection() {
           {Array.from({ length: totalPages }).map((_, idx) => (
             <div
               key={idx}
-              className={`h-2 w-2 rounded-full ${idx === page ? 'bg-blue-900' : 'bg-gray-400'} transition-all`}
+              className={`h-2 w-2 rounded-full ${idx === page ? 'bg-mcbs-green' : 'bg-mcbs-navy'} transition-all`}
             />
           ))}
         </div>
 
         {/* CTA */}
         <div className="mt-10">
-          <button className="bg-blue-900 hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded transition">
+          <button className="bg-mcbs-navy hover:bg-mcbs-green text-white font-semibold px-6 py-3 rounded transition">
             GET TO KNOW US
           </button>
         </div>

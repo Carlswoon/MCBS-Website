@@ -20,8 +20,8 @@ export default function MoreInfoSection() {
         </div>
 
         {/* Text Box */}
-        <div className="w-full md:w-1/2 bg-white/70 backdrop-blur-md p-8 rounded shadow-lg">
-          <h2 className="text-3xl font-bold text-blue-900 mb-4">NEW ZEALAND 2024</h2>
+        <div className="w-full md:w-1/2 bg-mcbs-white/70 backdrop-blur-md p-8 rounded shadow-lg">
+          <h2 className="text-3xl font-bold text-mcbs-navy mb-4">NEW ZEALAND 2024</h2>
           <p className="mb-3 text-gray-800">
             The countdown to winter in Queenstown is on! After a hugely successful trip in 2024, we’re once again ready
             for fresh powder, epic adventures and themed evening parties that only Newski can provide!
@@ -33,7 +33,7 @@ export default function MoreInfoSection() {
             Join NEWSKI on our BIGGEST TRIP EVER and experience 10 unforgettable days full of adventure in a place where
             no two days are the same!
           </p>
-          <button className="bg-blue-900 hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded transition">
+          <button className="bg-mcbs-navy hover:bg-mcbs-green text-white font-semibold px-6 py-3 rounded transition">
             LEARN MORE
           </button>
         </div>

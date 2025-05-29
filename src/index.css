@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --color-mcbs-navy: #001f4d;    /* dark blue vibes */
+  --color-mcbs-green: #1aab5d;   /* strong leafy green */
+  --color-mcbs-white: #ffffff;   /* pure angelic white */
+  --color-mcbs-blue: #9edbff;    /* soft sky blue */
+  --color-mcbs-shadow: #121212;  /* rich deep shadow */
+  --color-mcbs-bronze: #b1733b;  /* elegant warm bronze */
+}

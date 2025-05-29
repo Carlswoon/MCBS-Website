@@ -1,30 +1,25 @@
-import image1 from './assets/image1.jpg';
-
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import CountdownSection from './components/CountdownSection';
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import MoreInfoSection from './components/MoreInfoSection';
-import TeamSection from './components/TeamSection';
-import YouTubeEmbed from './components/VideoSection';
-import SponsorsSection from './components/SponsorSection';
-import FooterSection from './components/footer';
+import Home from './pages/Home';
+import Events from './pages/Events';
+import Team from './pages/MeetTheTeam';
+import Sponsors from './pages/OurSponsors';
+import Contact from './pages/ContactUs';
+import Join from './pages/JoinMCBS';
 
 function App() {
   return (
-    <div className="font-sans">
-      <>
-        <Navbar />
-        <CountdownSection />
-        <HeroSection />
-        <AboutSection />
-        <MoreInfoSection />
-        <TeamSection />
-        <YouTubeEmbed />
-        <SponsorsSection />
-        <FooterSection />
-      </>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/join" element={<Join />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 

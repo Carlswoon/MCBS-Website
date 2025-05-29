@@ -16,9 +16,9 @@ const sponsors = [
 
 export default function SponsorsSection() {
   return (
-    <section className="bg-white border-t-4 border-blue-900 py-12 px-6">
+    <section className="bg-mcbs-white border-t-4 border-mcbs-navy py-12 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-10">THANKS TO OUR SPONSORS</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-mcbs-navy mb-10">THANKS TO OUR SPONSORS</h2>
 
         <div className="flex flex-wrap justify-center items-center gap-10">
           {sponsors.map((sponsor, index) => (

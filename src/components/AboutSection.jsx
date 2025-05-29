@@ -6,7 +6,7 @@ export default function AboutSection() {
     <section className="bg-white px-6 py-20 md:px-16 flex flex-col md:flex-row justify-between gap-12">
       {/* Text Block */}
       <div className="md:w-1/2">
-        <h2 className="text-6xl font-extrabold text-blue-900 mb-6">NEWSKI</h2>
+        <h2 className="text-6xl font-extrabold text-mcbs-navy mb-6">NEWSKI</h2>
         <p className="text-gray-700 mb-4">
           Where some of UNSW’s finest hit Jägerbombs harder than we hit the slopes (or occasionally the floor).
         </p>

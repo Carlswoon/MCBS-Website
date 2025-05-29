@@ -23,7 +23,7 @@ export default function CountdownSection() {
   }, []);
 
   return (
-    <section className="bg-blue-900 text-white text-center py-6 mt-16">
+    <section className="bg-mcbs-navy text-mcbs-white text-center py-6 mt-16">
       <h2 className="text-lg font-semibold">COUNTDOWN TO NEXT MAHJONG EVENT</h2>
       <div className="text-4xl mt-2 font-bold">
         {countdown.days} Days {countdown.hours} Hours {countdown.minutes} Minutes {countdown.seconds} Seconds

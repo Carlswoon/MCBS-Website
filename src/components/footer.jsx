@@ -2,14 +2,14 @@ import { Mail, Facebook, Instagram, Youtube } from 'lucide-react';
 
 export default function FooterSection() {
   return (
-    <footer className="bg-blue-900 py-8">
+    <footer className="bg-mcbs-navy py-8">
       <div className="flex justify-center items-center gap-6">
         <a href="mailto:newski@unsw.edu.au" className="text-white hover:opacity-80 transition">
           <Mail size={28} />
         </a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition">
           <div className="bg-white rounded-full p-1">
-            <Facebook size={24} className="text-blue-900" />
+            <Facebook size={24} className="text-mcbs-navy" />
           </div>
         </a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition">
