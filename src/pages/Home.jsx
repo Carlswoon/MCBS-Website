@@ -1,23 +1,11 @@
-import CountdownSection from '../components/CountdownSection';
-import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/AboutSection';
-import MoreInfoSection from '../components/MoreInfoSection';
-import TeamSection from '../components/TeamSection';
-import YouTubeEmbed from '../components/VideoSection';
-import SponsorsSection from '../components/SponsorSection';
-import FooterSection from '../components/Footer.jsx';
+import CountdownBanner from '../components/CountdownSection';
+import Carousel3D from '../components/MahjongTileCarousel';
 
 export default function Home() {
   return (
     <>
-      <CountdownSection />
-      <HeroSection />
-      <AboutSection />
-      <MoreInfoSection />
-      <TeamSection />
-      <YouTubeEmbed />
-      <SponsorsSection />
-      <FooterSection />
+      <Carousel3D />
+      <CountdownBanner />
     </>
   );
 }

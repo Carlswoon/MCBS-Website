@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/effect-fade';
 
 @theme {
   --color-mcbs-navy: #001f4d;    /* dark blue vibes */
@@ -7,4 +11,13 @@
   --color-mcbs-blue: #9edbff;    /* soft sky blue */
   --color-mcbs-shadow: #121212;  /* rich deep shadow */
   --color-mcbs-bronze: #b1733b;  /* elegant warm bronze */
+}
+
+@keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+@keyframes spinRevert {
+  from { transform: rotateY(360deg); }
+  to { transform: rotateY(0deg); }
 }
