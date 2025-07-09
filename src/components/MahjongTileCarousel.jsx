@@ -15,11 +15,11 @@ const Carousel3D = () => {
   const spinContainerRef = useRef(null);
 
   // Configs
-  const radius = 240;
+  let radius = window.innerWidth < 768 ? 140 : 240;
   const autoRotate = true;
   const rotateSpeed = -60;
-  const imgWidth = 120;
-  const imgHeight = 170;
+  const imgWidth = window.innerWidth < 768 ? 80 : 120;
+  const imgHeight = window.innerWidth < 768 ? 110 : 170;
 
   let tX = 0;
   let tY = 0;
@@ -60,6 +60,7 @@ const Carousel3D = () => {
     };
 
     document.onpointerdown = e => {
+      e.preventDefault();
       let sX = e.clientX, sY = e.clientY;
       document.onpointermove = e => {
         const nX = e.clientX, nY = e.clientY;
@@ -102,7 +103,12 @@ const Carousel3D = () => {
       className="w-full h-screen flex items-center justify-center bg-[#111] overflow-hidden"
       style={{ perspective: '500px' }}
     >
-      <div id="drag-container" ref={dragContainerRef} className="relative flex transform rotate-x-[10deg]" style={{ transformStyle: 'preserve-3d' }}>
+      <div
+        id="drag-container"
+        ref={dragContainerRef}
+        className="relative flex transform rotate-x-[10deg]"
+        style={{ transformStyle: 'preserve-3d', touchAction: 'none' }}  // ⬅️ Add this
+      >
         <div id="spin-container" ref={spinContainerRef} className="relative" style={{ transformStyle: 'preserve-3d' }}>
           {carouselItems.map((item, i) => (
            <Link
@@ -114,7 +120,7 @@ const Carousel3D = () => {
               <img
                 src={item.src}
                 alt=""
-                className="w-full h-full object-cover rounded-xl transition duration-300 hover:shadow-[0_0_15px_#fffd] reflect-below"
+                className="w-[80px] h-[110px] sm:w-[120px] sm:h-[170px] object-cover rounded-xl transition duration-300 hover:shadow-[0_0_15px_#fffd] reflect-below"
               />
             </Link>
           ))}
