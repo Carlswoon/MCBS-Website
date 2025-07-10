@@ -18,7 +18,7 @@ export default function Internals() {
       img: "/mahjong/people/internals/Jackson.png",
       tile: "/mahjong/people/internals/tiles/Jackson.png",
       title: "HR Director",
-      bio: "Jackson makes sure every subcomm feels seen and supported.",
+      bio: "Doesn't speak Mandarin, atrocious at Mahjong and reguarly crashes out over google forms!",
     },
 
     // Subcomms (3員)

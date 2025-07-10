@@ -32,7 +32,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Tristan.png",
       tile: "/mahjong/people/marketing/tiles/Tristan.png",
       title: "Marketing Director",
-      bio: "Tristan makes everything look ✨aesthetic✨.",
+      bio: "The only guy in the soc that actually knows how to play mahjong",
     },
 
     // Subcomms (3員)
@@ -48,7 +48,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Charles.png",
       tile: "/mahjong/people/marketing/tiles/Charles.png",
       title: "Marketing Subcommittee",
-      bio: "Charles has the eye for design and the wit for copy.",
+      bio: "I'm so cool",
     },
     {
       name: "Jun",

@@ -48,7 +48,7 @@ export default function EventsTeam() {
       img: "/mahjong/people/events/Daniel W.png",
       tile: "/mahjong/people/events/tiles/Daniel W.png",
       title: "Events Subcommittee",
-      bio: "Daniel W is the wild card that makes it all work.",
+      bio: "Daniel W is the wild card that makes it all work (somehow).",
     },
     {
       name: "Daniel Y",
