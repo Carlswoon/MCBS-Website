@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Join() {
   // auto‐enable in a month…
@@ -141,7 +142,13 @@ export default function Join() {
             <p className="mt-4 text-center text-red-600 text-sm">
               We are currently not accepting new director or subcommittee applications.
               <br />
-              Keep up to date with openings on our social media.
+              Keep up to date with openings on our {' '}
+              <Link
+                to="/contact"
+                className="text-red-600 hover:text-green-600 underline"
+              >
+                social media.
+              </Link>
             </p>
           )}
         </form>
