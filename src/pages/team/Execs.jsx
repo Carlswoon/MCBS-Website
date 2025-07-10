@@ -1,62 +1,67 @@
+import { useState } from "react";
+import InfoModal from "../../components/InfoModal";
+
 export default function Execs() {
   const execs = [
     {
       name: "Mark",
-      role: "President",
+      img: "/mahjong/people/exec/Mark.png", // president tile
+      tile: "/mahjong/people/exec/tiles/Mark.png",
+      title: "President",
       bio: "Mark leads the MCBS society with a passion for strategy and snacks.",
-      img: "/mahjong/people/mark.png",
-      size: "full",
-    },
-    {
-      name: "Elizabeth",
-      role: "Secretary & Treasurer",
-      bio: "Elizabeth keeps the minutes and the money in perfect order.",
-      img: "/mahjong/people/elizabeth.png",
-      size: "half",
     },
     {
       name: "Nancy",
-      role: "Governance Officer",
+      img: "/mahjong/people/exec/Nancy.png", // governance officer tile
+      tile: "/mahjong/people/exec/tiles/Nancy.png",
+      title: "Governance Officer",
       bio: "Nancy ensures the society runs smoothly and ethically.",
-      img: "/mahjong/people/nancy.png",
-      size: "half",
+    },
+    {
+      name: "Elizabeth",
+      img: "/mahjong/people/exec/Elizabeth.png", // sec+treasurer tile
+      tile: "/mahjong/people/exec/tiles/Elizabeth.png",
+      title: "Secretary & Treasurer",
+      bio: "Elizabeth keeps the minutes and the money in perfect order.",
     },
   ];
 
-  return (
-    <div className="min-h-screen px-6 py-22 bg-mcbs-white">
-      <h1 className="text-4xl font-bold text-center text-mcbs-navy mb-12">Executive Team</h1>
-      <div className="max-w-5xl mx-auto space-y-8">
-        {/* President - full width */}
-        {execs
-          .filter((e) => e.size === "full")
-          .map((exec, index) => (
-            <div key={index} className="bg-mcbs-green rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row">
-              <img src={exec.img} alt={exec.name} className="h-80 md:h-96" />
-              <div className="p-6">
-                <h2 className="text-2xl font-semibold text-mcbs-navy">{exec.role}</h2>
-                <p className="mt-1 text-mcbs-shadow font-medium">{exec.name}</p>
-                <p className="mt-2 text-mcbs-shadow">{exec.bio}</p>
-              </div>
-            </div>
-          ))}
+  const [activeExec, setActiveExec] = useState(null);
+ return (
+    <div className="min-h-screen px-6 py-20 bg-mcbs-white flex flex-col items-center justify-center relative font-mono">
+      <h1 className="text-4xl font-bold text-center text-mcbs-navy mb-16">Executive Team</h1>
 
-        {/* Other execs - side by side */}
-        <div className="flex flex-col md:flex-row gap-8">
-          {execs
-            .filter((e) => e.size === "half")
-            .map((exec, index) => (
-              <div key={index} className="flex-1 bg-mcbs-blue rounded-2xl shadow-lg overflow-hidden flex flex-col">
-                <img src={exec.img} alt={exec.name} className="w-full h-64 object-cover" />
-                <div className="p-6">
-                  <h2 className="text-xl font-semibold text-mcbs-navy">{exec.role}</h2>
-                  <p className="mt-1 text-mcbs-shadow font-medium">{exec.name}</p>
-                  <p className="mt-2 text-mcbs-shadow">{exec.bio}</p>
-                </div>
-              </div>
-            ))}
-        </div>
+      {/* Top tile */}
+      <div className="mb-8">
+        <img
+          src={execs[0].tile}
+          alt={execs[0].name}
+          className="w-44 sm:w-48 md:w-52 mx-auto cursor-pointer"
+          onClick={() => setActiveExec(execs[0])}
+        />
       </div>
+
+      {/* Bottom tiles */}
+      <div className="flex gap-12">
+        {[execs[1], execs[2]].map((exec, i) => (
+          <img
+            key={i}
+            src={exec.tile}
+            alt={exec.name}
+            className="w-44 sm:w-48 md:w-52 cursor-pointer"
+            onClick={() => setActiveExec(exec)}
+          />
+        ))}
+      </div>
+
+      <InfoModal
+        name={activeExec?.name}
+        role={activeExec?.title}
+        bio={activeExec?.bio}
+        imgSrc={activeExec?.img}
+        onClose={() => setActiveExec(null)}
+      />
+
     </div>
   );
 }
