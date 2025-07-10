@@ -9,7 +9,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Nat.png",
       tile: "/mahjong/people/marketing/tiles/Nat.png",
       title: "Vice President",
-      bio: "Nat brings sunshine and spreadsheets to the team.",
+      bio: "Let me cook something up by tomorrow",
     },
     {
       name: "Yuyan",

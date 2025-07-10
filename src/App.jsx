@@ -10,6 +10,7 @@ import Marketing from './pages/team/Marketing';
 import Execs from './pages/team/Execs';
 import EventsTeam from './pages/team/EventsTeam'; 
 import SponsorsTeam from './pages/team/SponsorsTeam';
+import Internals from './pages/team/Internals';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/team/marketing" element={<Marketing />} />
         <Route path="/team/execs" element={<Execs />} />
+        <Route path="/team/internals" element={<Internals />} />
         <Route path="/team/events" element={<EventsTeam />} />
         <Route path="/team/sponsors" element={<SponsorsTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
