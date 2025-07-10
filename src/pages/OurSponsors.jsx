@@ -17,7 +17,7 @@ export default function OurSponsors() {
             className="group"
           >
             <img
-              src="/src/assets/sponsors/gonggrocer1.png"
+              src="/sponsors/gonggrocer1.png"
               alt="Gong Grocer Logo"
               className="max-h-32 object-contain transition-transform group-hover:scale-105"
             />
@@ -46,7 +46,7 @@ export default function OurSponsors() {
             className="group"
           >
             <img
-              src="/src/assets/sponsors/alexiuscomm.png"
+              src="/sponsors/alexiuscomm.png"
               alt="Alexius Communications Logo"
               className="max-h-32 object-contain transition-transform group-hover:scale-105"
             />
