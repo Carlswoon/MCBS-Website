@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Events from './pages/Events';
+import Events from './pages/old/Events';
 import Events2 from './pages/Events2';
 import About from './pages/aboutUs';
 import Team from './pages/MeetTheTeam';

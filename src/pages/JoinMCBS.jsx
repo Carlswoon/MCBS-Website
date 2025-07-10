@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import CountdownBanner from '../components/CountdownSection';
 
 export default function Join() {
   // auto‐enable in a month…
@@ -153,6 +154,7 @@ export default function Join() {
           )}
         </form>
       </div>
+      <CountdownBanner />
     </div>
   );
 }

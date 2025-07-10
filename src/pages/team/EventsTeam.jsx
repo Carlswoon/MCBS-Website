@@ -62,7 +62,7 @@ export default function EventsTeam() {
       img: "/mahjong/people/events/Ellen.png",
       tile: "/mahjong/people/events/tiles/Ellen.png",
       title: "Events Subcommittee",
-      bio: "Ellen brings precision and presence to every event.",
+      bio: "can u make one up for me i acc cant think of anything",
     },
     {
       name: "Gloria",

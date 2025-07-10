@@ -16,7 +16,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Yuyan.png",
       tile: "/mahjong/people/marketing/tiles/Yuyan.png",
       title: "Vice President",
-      bio: "Yuyan leads with vision and the perfect Instagram caption.",
+      bio: "From the moment I was born, I was destined to make mahjong reels",
     },
 
     // Directors (2導)
