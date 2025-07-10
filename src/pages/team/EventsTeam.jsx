@@ -25,7 +25,7 @@ export default function EventsTeam() {
       img: "/mahjong/people/events/Clair.png",
       tile: "/mahjong/people/events/tiles/Clair.png",
       title: "Events Director",
-      bio: "Clair coordinates the chaos with elegance.",
+      bio: "Clair supports every member's gambling addiction #hustlermindsetfr",
     },
     {
       name: "Eric",
@@ -76,7 +76,7 @@ export default function EventsTeam() {
       img: "/mahjong/people/events/Jason.png",
       tile: "/mahjong/people/events/tiles/Jason.png",
       title: "Events Subcommittee",
-      bio: "Jason = cool, calm, collected — and always on time.",
+      bio: "I joined mahjong without knowing how to play mahjong 🤡 (lowkey still don't)",
     },
     {
       name: "Steven",

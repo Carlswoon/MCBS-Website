@@ -8,7 +8,7 @@ export default function Execs() {
       img: "/mahjong/people/exec/Mark.png", // president tile
       tile: "/mahjong/people/exec/tiles/Mark.png",
       title: "President",
-      bio: "Mark leads the MCBS society with a passion for strategy and snacks.",
+      bio: "Founding member of MCBS (est. May 2024), Mark built the society tile by tile. Whether it's game night or governance, he’s always five moves ahead. With a sharp mind for strategy and an even sharper craving for snacks, Mark isn’t just playing mahjong—he’s redefining the meta.",
     },
     {
       name: "Nancy",

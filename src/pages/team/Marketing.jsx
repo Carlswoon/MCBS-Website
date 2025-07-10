@@ -65,11 +65,11 @@ export default function Marketing() {
       bio: "Leon brings vibes and reels to life.",
     },
     {
-      name: "Mel",
+      name: "Melissa",
       img: "/mahjong/people/marketing/Mel.png",
       tile: "/mahjong/people/marketing/tiles/Mel.png",
       title: "Marketing Subcommittee",
-      bio: "Mel keeps the aesthetic clean and classy.",
+      bio: "I LOVEEEE Mahjong ❤️‍🔥",
     },
     {
       name: "Nathan",
