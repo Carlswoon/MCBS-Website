@@ -67,6 +67,9 @@ export default function Navbar() {
           <Link to="/events" className="hover:text-mcbs-white transition">
             EVENTS
           </Link>
+          <Link to="/events2" className="hover:text-mcbs-white transition">
+            EVENTS2
+          </Link>
           <Link to="/contact" className="hover:text-mcbs-white transition">
             CONTACT US
           </Link>

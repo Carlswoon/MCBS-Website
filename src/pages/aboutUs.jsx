@@ -23,7 +23,7 @@ export default function About() {
         <p className="text-lg text-gray-700">
         <p className="text-lg text-gray-700 text-center">
           🎉 Welcome to Mahjong Soc – the place where tile‐flipping pros and total newbs come together to laugh, learn, and spin up epic hands!  
-          Whether you’re chasing that perfect “pong,” here for the snacks 🍜, or just keen to meet new mates, you’ll feel right at home!
+          Whether you’re chasing that perfect "Hu", here for the snacks 🍜, or just keen to meet new mates, you’ll feel right at home!
         </p>
 
         </p>

@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Events from './pages/Events';
+import Events2 from './pages/Events2';
 import About from './pages/aboutUs';
 import Team from './pages/MeetTheTeam';
 import Sponsors from './pages/OurSponsors';
@@ -30,6 +31,7 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/events2" element={<Events2 />} />
       </Routes>
     </>
   );
