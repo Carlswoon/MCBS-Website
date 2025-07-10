@@ -83,7 +83,7 @@ export default function SponsorsTeam() {
       img: "/mahjong/people/sponsors/Oliver.png",
       tile: "/mahjong/people/sponsors/tiles/Oliver.png",
       title: "Sponsorship Subcommittee",
-      bio: "Oliver turns cold calls into hot leads.",
+      bio: "Hi, my name's Oliver and I'm a first year enjoying uni and friends",
     },
     {
       name: "Tao",

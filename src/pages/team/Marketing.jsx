@@ -41,7 +41,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Carlson.png",
       tile: "/mahjong/people/marketing/tiles/Carlson.png",
       title: "Marketing Subcommittee",
-      bio: "Carlson adds the spice and memes to the mix.",
+      bio: "So much aura, i aura-ed my way into the marketing team",
     },
     {
       name: "Charles",
