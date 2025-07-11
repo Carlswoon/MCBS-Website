@@ -7,7 +7,7 @@ export default function About() {
       {/* HERO */}
       <section className="relative h-96 flex items-center justify-center">
         <img
-          src="/mahjong/people/marketing/Carlson.png"
+          src="/mahjong/soc.jpg"
           alt="Mahjong Soc gathering"
           className="absolute inset-0 object-cover w-full h-full object-cover object-[position:50%_40%]"
         />
