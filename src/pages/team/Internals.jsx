@@ -3,7 +3,6 @@ import InfoModal from "../../components/InfoModal";
 
 export default function Internals() {
   const internalsTeam = [
-    // VP (1副)
     {
       name: "Hannah",
       img: "/mahjong/people/internals/Hannah.png",
@@ -11,17 +10,13 @@ export default function Internals() {
       title: "Vice President",
       bio: "Hannah keeps the people happy and the vibes immaculate.",
     },
-
-    // Director (2導)
     {
       name: "Jackson",
       img: "/mahjong/people/internals/Jackson.png",
       tile: "/mahjong/people/internals/tiles/Jackson.png",
       title: "HR Director",
-      bio: "Doesn't speak Mandarin, atrocious at Mahjong and reguarly crashes out over google forms!",
+      bio: "Doesn't speak Mandarin, atrocious at Mahjong and regularly crashes out over google forms!",
     },
-
-    // Subcomms (3員)
     {
       name: "Jennifer",
       img: "/mahjong/people/internals/Jennifer.png",
@@ -41,37 +36,39 @@ export default function Internals() {
   const [activePerson, setActivePerson] = useState(null);
 
   return (
-    <div className="min-h-screen px-6 py-20 bg-mcbs-white flex flex-col items-center justify-center relative font-mono">
-      <h1 className="text-4xl font-bold text-center text-mcbs-navy mb-16">Internals Team</h1>
+    <div className="min-h-screen px-4 sm:px-6 py-16 bg-mcbs-white flex flex-col items-center justify-center relative font-mono">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center text-mcbs-navy mb-12 sm:mb-16">
+        Internals Team
+      </h1>
 
       {/* VP */}
-      <div className="mb-12">
+      <div className="mb-8">
         <img
           src={internalsTeam[0].tile}
           alt={internalsTeam[0].name}
-          className="w-44 sm:w-48 md:w-52 mx-auto cursor-pointer"
+          className="w-28 sm:w-36 md:w-44 mx-auto cursor-pointer transition-transform hover:scale-105"
           onClick={() => setActivePerson(internalsTeam[0])}
         />
       </div>
 
       {/* Director */}
-      <div className="mb-12">
+      <div className="mb-8">
         <img
           src={internalsTeam[1].tile}
           alt={internalsTeam[1].name}
-          className="w-44 sm:w-48 md:w-52 mx-auto cursor-pointer"
+          className="w-28 sm:w-36 md:w-44 mx-auto cursor-pointer transition-transform hover:scale-105"
           onClick={() => setActivePerson(internalsTeam[1])}
         />
       </div>
 
       {/* Subcomms */}
-      <div className="flex gap-12">
+      <div className="flex flex-wrap justify-center gap-6 sm:gap-12">
         {internalsTeam.slice(2).map((person, i) => (
           <img
             key={i}
             src={person.tile}
             alt={person.name}
-            className="w-44 sm:w-48 md:w-52 cursor-pointer"
+            className="w-28 sm:w-36 md:w-44 cursor-pointer transition-transform hover:scale-105"
             onClick={() => setActivePerson(person)}
           />
         ))}

@@ -16,7 +16,7 @@ export default function EventsTeam() {
       img: "/mahjong/people/events/Suki.png",
       tile: "/mahjong/people/events/tiles/Suki.png",
       title: "Vice President",
-      bio: "Suki makes sure no event goes un-slayed.",
+      bio: "Suki makes sure no event goes un-slayed but never had the chance to play against subbies",
     },
 
     // Directors
@@ -65,13 +65,6 @@ export default function EventsTeam() {
       bio: "can u make one up for me i acc cant think of anything",
     },
     {
-      name: "Gloria",
-      img: "/mahjong/people/events/Gloria.png",
-      tile: "/mahjong/people/events/tiles/Gloria.png",
-      title: "Events Subcommittee",
-      bio: "Gloria makes chaos cute and under control.",
-    },
-    {
       name: "Jason",
       img: "/mahjong/people/events/Jason.png",
       tile: "/mahjong/people/events/tiles/Jason.png",
@@ -90,50 +83,52 @@ export default function EventsTeam() {
       img: "/mahjong/people/events/Wendy.png",
       tile: "/mahjong/people/events/tiles/Wendy.png",
       title: "Events Subcommittee",
-      bio: "Wendy brings energy and a playlist for everything.",
+      bio: "A loyal pop mart enjoyer I will crash out if u say my labubu is ugly",
     },
   ];
 
   const [activePerson, setActivePerson] = useState(null);
 
   return (
-    <div className="min-h-screen px-6 py-20 bg-mcbs-white flex flex-col items-center justify-center relative font-mono">
-      <h1 className="text-4xl font-bold text-center text-mcbs-navy mb-16">Events Team</h1>
+    <div className="min-h-screen px-4 sm:px-6 py-16 bg-mcbs-white flex flex-col items-center justify-center relative font-mono">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center text-mcbs-navy mb-12 sm:mb-16">
+        Events Team
+      </h1>
 
       {/* VPs */}
-      <div className="flex gap-12 mb-12">
+      <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-12">
         {eventsTeam.slice(0, 2).map((person, i) => (
           <img
             key={i}
             src={person.tile}
             alt={person.name}
-            className="w-44 sm:w-48 md:w-52 cursor-pointer"
+            className="w-28 sm:w-36 md:w-44 cursor-pointer transition-transform hover:scale-105"
             onClick={() => setActivePerson(person)}
           />
         ))}
       </div>
 
       {/* Directors */}
-      <div className="flex gap-12 flex-wrap justify-center mb-12">
+      <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-12">
         {eventsTeam.slice(2, 5).map((person, i) => (
           <img
             key={i}
             src={person.tile}
             alt={person.name}
-            className="w-44 sm:w-48 md:w-52 cursor-pointer"
+            className="w-28 sm:w-36 md:w-44 cursor-pointer transition-transform hover:scale-105"
             onClick={() => setActivePerson(person)}
           />
         ))}
       </div>
 
       {/* Subcomms */}
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
         {eventsTeam.slice(5).map((person, i) => (
           <img
             key={i}
             src={person.tile}
             alt={person.name}
-            className="w-40 sm:w-44 md:w-48 cursor-pointer"
+            className="w-24 sm:w-32 md:w-40 cursor-pointer transition-transform hover:scale-105"
             onClick={() => setActivePerson(person)}
           />
         ))}

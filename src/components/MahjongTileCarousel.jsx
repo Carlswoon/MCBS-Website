@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const carouselItems = [
   { src: '/mahjong/joinMCBS.png', route: '/join' },
-  { src: '/mahjong/events.png', route: '/events' },
+  { src: '/mahjong/events.png', route: '/events2' },
   { src: '/mahjong/meetTheTeam.png', route: '/team' },
   { src: '/mahjong/ourSponsors.png', route: '/sponsors' },
   { src: '/mahjong/contactUs.png', route: '/contact' },
-  { src: '/mahjong/event.png', route: '/events' },
+  { src: '/mahjong/event.png', route: '/events2' },
 ];
 
 const Carousel3D = () => {

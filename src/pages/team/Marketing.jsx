@@ -3,7 +3,6 @@ import InfoModal from "../../components/InfoModal";
 
 export default function Marketing() {
   const marketingTeam = [
-    // VPs (1副)
     {
       name: "Nat",
       img: "/mahjong/people/marketing/Nat.png",
@@ -18,8 +17,6 @@ export default function Marketing() {
       title: "Vice President",
       bio: "From the moment I was born, I was destined to make mahjong reels",
     },
-
-    // Directors (2導)
     {
       name: "Ruonan",
       img: "/mahjong/people/marketing/Ruonan.png",
@@ -34,8 +31,6 @@ export default function Marketing() {
       title: "Marketing Director",
       bio: "The only guy in the soc that actually knows how to play mahjong",
     },
-
-    // Subcomms (3員)
     {
       name: "Carlson",
       img: "/mahjong/people/marketing/Carlson.png",
@@ -104,43 +99,45 @@ export default function Marketing() {
   const [activePerson, setActivePerson] = useState(null);
 
   return (
-    <div className="min-h-screen px-6 py-20 bg-mcbs-white flex flex-col items-center justify-center relative font-mono">
-      <h1 className="text-4xl font-bold text-center text-mcbs-navy mb-16">Marketing Team</h1>
+    <div className="min-h-screen px-4 sm:px-6 py-16 bg-mcbs-white flex flex-col items-center justify-center relative font-mono">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center text-mcbs-navy mb-12 sm:mb-16">
+        Marketing Team
+      </h1>
 
       {/* VPs */}
-      <div className="flex gap-12 mb-12">
+      <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-12">
         {marketingTeam.slice(0, 2).map((person, i) => (
           <img
             key={i}
             src={person.tile}
             alt={person.name}
-            className="w-44 sm:w-48 md:w-52 cursor-pointer"
+            className="w-28 sm:w-36 md:w-44 cursor-pointer transition-transform hover:scale-105"
             onClick={() => setActivePerson(person)}
           />
         ))}
       </div>
 
       {/* Directors */}
-      <div className="flex gap-12 mb-12">
+      <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-12">
         {marketingTeam.slice(2, 4).map((person, i) => (
           <img
             key={i}
             src={person.tile}
             alt={person.name}
-            className="w-44 sm:w-48 md:w-52 cursor-pointer"
+            className="w-28 sm:w-36 md:w-44 cursor-pointer transition-transform hover:scale-105"
             onClick={() => setActivePerson(person)}
           />
         ))}
       </div>
 
       {/* Subcomms */}
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
         {marketingTeam.slice(4).map((person, i) => (
           <img
             key={i}
             src={person.tile}
             alt={person.name}
-            className="w-40 sm:w-44 md:w-48 cursor-pointer"
+            className="w-24 sm:w-32 md:w-40 cursor-pointer transition-transform hover:scale-105"
             onClick={() => setActivePerson(person)}
           />
         ))}
