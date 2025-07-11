@@ -35,7 +35,7 @@ export default function CountdownBanner() {
     <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 w-[95%] max-w-6xl bg-mcbs-white text-mcbs-shadow rounded-full shadow-xl flex flex-col md:flex-row items-center justify-between gap-4 px-6 py-4 z-50 border border-mcbs-blue">
       {/* Left text */}
       <p className="text-center md:text-left text-sm sm:text-base font-medium">
-        Sign up for Mahjong Roulette and secure your seat for Week 2’s exclusive event! 🀄
+        Sign up for Mahjong Roulette and secure your seat for Week 7’s exclusive event! 🀄
       </p>
 
       {/* Timer */}
