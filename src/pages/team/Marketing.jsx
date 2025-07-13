@@ -47,7 +47,6 @@ export default function Marketing() {
       bio: "I'm so cool",
     },
     {
-      // not revised yet
       name: "Jun",
       img: "/mahjong/people/marketing/Jun.png",
       tile: "/mahjong/people/marketing/tiles/Jun.png",
@@ -84,12 +83,11 @@ export default function Marketing() {
       bio: "Sukie adds the ✨ personality ✨ to every post.",
     },
     {
-      // not revised yet
       name: "Talia",
       img: "/mahjong/people/marketing/Talia.png",
       tile: "/mahjong/people/marketing/tiles/Talia.png",
       title: "Marketing Subcommittee",
-      bio: "Talia = sass + skill. Iconic combo.",
+      bio: "cooking something up on canva",
     },
     {
       name: "Xixi",
