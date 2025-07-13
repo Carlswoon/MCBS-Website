@@ -8,7 +8,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Nat.png",
       tile: "/mahjong/people/marketing/tiles/Nat.png",
       title: "Vice President",
-      bio: "Let me cook something up by tomorrow",
+      bio: "Might not be cooking at the mahjong table, but I'll be cooking up your weekly mahjong content!",
     },
     {
       name: "Yuyan",
@@ -18,6 +18,7 @@ export default function Marketing() {
       bio: "From the moment I was born, I was destined to make mahjong reels",
     },
     {
+      // not revised yet
       name: "Ruonan",
       img: "/mahjong/people/marketing/Ruonan.png",
       tile: "/mahjong/people/marketing/tiles/Ruonan.png",
@@ -36,7 +37,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Carlson.png",
       tile: "/mahjong/people/marketing/tiles/Carlson.png",
       title: "Marketing Subcommittee",
-      bio: "So much aura, i aura-ed my way into the marketing team",
+      bio: "catch him looksmaxxing at events",
     },
     {
       name: "Charles",
@@ -46,6 +47,7 @@ export default function Marketing() {
       bio: "I'm so cool",
     },
     {
+      // not revised yet
       name: "Jun",
       img: "/mahjong/people/marketing/Jun.png",
       tile: "/mahjong/people/marketing/tiles/Jun.png",
@@ -74,6 +76,7 @@ export default function Marketing() {
       bio: "Nathan runs the show behind the camera.",
     },
     {
+      // not revised yet
       name: "Sukie",
       img: "/mahjong/people/marketing/Sukie.png",
       tile: "/mahjong/people/marketing/tiles/Sukie.png",
@@ -81,6 +84,7 @@ export default function Marketing() {
       bio: "Sukie adds the ✨ personality ✨ to every post.",
     },
     {
+      // not revised yet
       name: "Talia",
       img: "/mahjong/people/marketing/Talia.png",
       tile: "/mahjong/people/marketing/tiles/Talia.png",
@@ -89,10 +93,10 @@ export default function Marketing() {
     },
     {
       name: "Xixi",
-      img: "/mahjong/people/marketing/Xixi.png",
+      img: "/mahjong/people/marketing/Xixi.jpg",
       tile: "/mahjong/people/marketing/tiles/Xixi.png",
       title: "Marketing Subcommittee",
-      bio: "Xixi’s edits? Chef’s kiss.",
+      bio: "ive never actually played mahjong in my life 😓",
     },
   ];
 

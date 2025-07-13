@@ -4,6 +4,7 @@ import InfoModal from "../../components/InfoModal";
 export default function SponsorsTeam() {
   const sponsorsTeam = [
     {
+      // not revised yet
       name: "Benny",
       img: "/mahjong/people/sponsors/Benny.png",
       tile: "/mahjong/people/sponsors/tiles/Benny.png",
@@ -22,7 +23,7 @@ export default function SponsorsTeam() {
       img: "/mahjong/people/sponsors/Ethan.png",
       tile: "/mahjong/people/sponsors/tiles/Ethan.png",
       title: "Sponsorship Director",
-      bio: "Ethan L is all business – and all smiles.",
+      bio: "\"Hippity hoppity your tile is now my property\" - Probably Sun Tzu",
     },
     {
       name: "Louis",
@@ -39,6 +40,7 @@ export default function SponsorsTeam() {
       bio: "Maximus leads like a general and memes like a king.",
     },
     {
+      // not revised yet
       name: "Chris",
       img: "/mahjong/people/sponsors/Chris.png",
       tile: "/mahjong/people/sponsors/tiles/Chris.png",
@@ -46,6 +48,7 @@ export default function SponsorsTeam() {
       bio: "Chris is the heart behind every partnership.",
     },
     {
+      // not revised yet
       name: "Cindy",
       img: "/mahjong/people/sponsors/Cindy.png",
       tile: "/mahjong/people/sponsors/tiles/Cindy.png",
@@ -53,6 +56,7 @@ export default function SponsorsTeam() {
       bio: "Cindy keeps the brand alive with confidence and charm.",
     },
     {
+      // not revised yet
       name: "Ethan H",
       img: "/mahjong/people/sponsors/Ethan H.png",
       tile: "/mahjong/people/sponsors/tiles/Ethan H.png",
@@ -67,6 +71,7 @@ export default function SponsorsTeam() {
       bio: "Always eating, never losing, could probably beat your grandma at mahjong. You’ll probably find me near the snacks during mahjong nights.",
     },
     {
+      // not revised yet
       name: "Isabelle",
       img: "/mahjong/people/sponsors/Isabelle.png",
       tile: "/mahjong/people/sponsors/tiles/Isabelle.png",
@@ -85,7 +90,7 @@ export default function SponsorsTeam() {
       img: "/mahjong/people/sponsors/Tao.png",
       tile: "/mahjong/people/sponsors/tiles/Tao.png",
       title: "Sponsorship Subcommittee",
-      bio: "Tao brings big king energy to every deal.",
+      bio: "Has never lost a hand of mahjong, or any card game until money is involved.",
     },
   ];
 

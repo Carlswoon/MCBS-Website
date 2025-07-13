@@ -9,7 +9,7 @@ export default function EventsTeam() {
       img: "/mahjong/people/events/Nick.png",
       tile: "/mahjong/people/events/tiles/Nick.png",
       title: "Vice President",
-      bio: "Nick fuels the fun with structure and snacks.",
+      bio: "Hi! I’m a Computer Science student who’s passionate about coding and technology. Outside of academics, I enjoy cooking and often experiment with simple, tasty recipes. I'm also a big fan of boardgame I love the mix of strategy and fun it brings.",
     },
     {
       name: "Suki",
@@ -35,6 +35,7 @@ export default function EventsTeam() {
       bio: "Eric brings the logistics and the laughs.",
     },
     {
+      // not revised yet
       name: "Helen",
       img: "/mahjong/people/events/Helen.png",
       tile: "/mahjong/people/events/tiles/Helen.png",
@@ -51,6 +52,7 @@ export default function EventsTeam() {
       bio: "Daniel W is the wild card that makes it all work (somehow).",
     },
     {
+      // not revised yet
       name: "Daniel Y",
       img: "/mahjong/people/events/Daniel Y.png",
       tile: "/mahjong/people/events/tiles/Daniel Y.png",

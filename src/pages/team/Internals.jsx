@@ -18,6 +18,7 @@ export default function Internals() {
       bio: "Doesn't speak Mandarin, atrocious at Mahjong and regularly crashes out over google forms!",
     },
     {
+      // not revised yet
       name: "Jennifer",
       img: "/mahjong/people/internals/Jennifer.png",
       tile: "/mahjong/people/internals/tiles/Jennifer.png",
@@ -25,6 +26,7 @@ export default function Internals() {
       bio: "Jennifer brings the empathy and the Excel sheets.",
     },
     {
+      // not revised yet
       name: "XinXin",
       img: "/mahjong/people/internals/XinXin.png",
       tile: "/mahjong/people/internals/tiles/XinXin.png",
