@@ -69,7 +69,7 @@ export default function Join() {
             </div>
             <div>
               <p className="font-bold text-xl sm:text-2xl">40+</p>
-              <p>Active members</p>
+              <p>Internal members</p>
             </div>
             <div>
               <p className="font-bold text-xl sm:text-2xl">10+</p>
