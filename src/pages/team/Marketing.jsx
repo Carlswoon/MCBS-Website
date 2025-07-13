@@ -52,7 +52,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Jun.png",
       tile: "/mahjong/people/marketing/tiles/Jun.png",
       title: "Marketing Subcommittee",
-      bio: "Jun is the creative chaos we love.",
+      bio: "Sydney Metro",
     },
     {
       name: "Leon",
