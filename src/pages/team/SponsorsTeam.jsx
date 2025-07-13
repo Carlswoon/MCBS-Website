@@ -48,12 +48,11 @@ export default function SponsorsTeam() {
       bio: "Chris is the heart behind every partnership.",
     },
     {
-      // not revised yet
       name: "Cindy",
       img: "/mahjong/people/sponsors/Cindy.png",
       tile: "/mahjong/people/sponsors/tiles/Cindy.png",
       title: "Sponsorship Subcommittee",
-      bio: "Cindy keeps the brand alive with confidence and charm.",
+      bio: "Has the most vile sleep schedule. Come find me when you're lonely at 3am :D",
     },
     {
       // not revised yet
