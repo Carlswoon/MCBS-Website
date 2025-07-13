@@ -52,12 +52,11 @@ export default function EventsTeam() {
       bio: "Daniel W is the wild card that makes it all work (somehow).",
     },
     {
-      // not revised yet
       name: "Daniel Y",
       img: "/mahjong/people/events/Daniel Y.png",
       tile: "/mahjong/people/events/tiles/Daniel Y.png",
       title: "Events Subcommittee",
-      bio: "Daniel Y shows up and shows out with sports and spirit.",
+      bio: "Every time I play mahjong, it's like I 碰'd my head and 吃'd my last braincell. My plays? Cooked. My hand? 糊得不可胡. But we still ballin, 杠杠 baby 🤘",
     },
     {
       name: "Ellen",
