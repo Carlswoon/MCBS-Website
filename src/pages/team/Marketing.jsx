@@ -23,7 +23,7 @@ export default function Marketing() {
       img: "/mahjong/people/marketing/Ruonan.png",
       tile: "/mahjong/people/marketing/tiles/Ruonan.png",
       title: "Marketing Director",
-      bio: "Ruonan crafts the brand identity with precision and flair.",
+      bio: "Ronan manages content and promotion for the Mahjong Club’s Chinese WeChat official account. She specializes in using engaging storytelling to connect Mahjong lovers across different cultures. Through her work, she hopes to share the fun and tradition of Mahjong with a broader audience.",
     },
     {
       name: "Tristan",
@@ -75,12 +75,11 @@ export default function Marketing() {
       bio: "Nathan runs the show behind the camera.",
     },
     {
-      // not revised yet
       name: "Sukie",
       img: "/mahjong/people/marketing/Sukie.png",
       tile: "/mahjong/people/marketing/tiles/Sukie.png",
       title: "Marketing Subcommittee",
-      bio: "Sukie adds the ✨ personality ✨ to every post.",
+      bio: "Hi! I’m Sukie, and I’m excited to be serving on the Marketing Subcommittee for the UNSW Mahjong and Chinese Boardgames Society. I’m a current JD student at UNSW and a first-generation American born to Punjabi-Indian parents. I’ve always had a deep love for culture, community, and bringing people together, which is exactly what drew me to this society!\n\n Outside of Mahjong and marketing, I’m passionate about advocacy and service. I’ve held leadership positions in several student associations and represented the U.S. internationally as Miss USA, becoming the first Punjabi-Indian woman to earn that title. My background includes legal work, community volunteering (including refugee support and homelessness outreach), and performing arts (I’m a trained dancer and singer!).\n\n I believe board games are a powerful way to connect across cultures, make friends, and de-stress, especially during law school! As a Marketing Subcommittee Member, I’m committed to helping the society grow, create inclusive events, and highlight the joy and strategy behind every game we play.\n\n Whether you're a Mahjong master or a curious beginner, come join us, I can’t wait to meet you!",
     },
     {
       name: "Talia",
