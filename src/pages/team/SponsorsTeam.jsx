@@ -70,12 +70,11 @@ export default function SponsorsTeam() {
       bio: "Always eating, never losing, could probably beat your grandma at mahjong. You’ll probably find me near the snacks during mahjong nights.",
     },
     {
-      // not revised yet
       name: "Isabelle",
       img: "/mahjong/people/sponsors/Isabelle.png",
       tile: "/mahjong/people/sponsors/tiles/Isabelle.png",
       title: "Sponsorship Subcommittee",
-      bio: "Isabelle sprinkles wholesomeness into every email.",
+      bio: "I'm a mahjong pro. hit me up for secret tricks :)",
     },
     {
       name: "Oliver",
