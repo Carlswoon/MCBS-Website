@@ -1,12 +1,40 @@
-# React + Vite
+# UNSW Mahjong Society Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive website built for the UNSW Mahjong Society to provide information about the society, showcase events, and create a more engaging online presence for students.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://mcbs-website.vercel.app
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- React Router
+- Swiper
+- Lucide React
+
+## Features
+
+- Custom mahjong-themed user interface
+- Interactive carousel-style navigation
+- Responsive layout for desktop and mobile
+- Multiple routed pages using React Router
+- Custom visual assets and society branding
+- Deployed publicly using Vercel
+
+## Project Purpose
+
+This project was developed for a real UNSW student society.
+
+The goal was to create a more engaging alternative to a traditional static society website while maintaining clear navigation and accessibility for students looking for information about the society and its events.
+
+## Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Carlswoon/MCBS-Website.git
+cd MCBS-Website
